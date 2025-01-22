@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h4{
+    text-align: center;
+    color: #7d4e24;
+    
+}
+
+h5{
+    color: #7d4e24;
+}
+div{
+    text-align: center;
+}
+
+
+header{
+    background-color: white;
+    list-style: none;
+    display: flex;
+    gap: 110px;
+    justify-content: center;
+    align-items: center;
+   
+
+    
+}
+
+header nav ul
+{
+    list-style: none;
+    display: flex;
+    gap: 110px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header img{
+   width: 5%;
+}
+
+header nav ul li a
+{
+    color: #7d4e24;
+    text-decoration: none;
+}
+
+/*pie de pagina*/
+.footer-inicio{
+    width: 100%;
+    background-color: #E9E0D4;
+    color: #7d4e24;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 110px;
+    text-decoration: none;
+
+    .footer-contactanos{
+        text-decoration: none;
+    }
+}
+
+section footer div{
+    flex-direction: column;
+}
+
+.derechos{
+    
+    background-color: #E9E0D4;
+    color: #7d4e24;
+    
+    justify-content: center;
+    
+}
+
+
+
+
+.velas-molde1{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+    
+}
+
+.velas-molde2{
+    display: flex;
+    justify-content: center;
+}
+
+.col-4{
+    text-decoration: none;
+    color: #7d4e24;
+
+}
+
+/*cuidados*/
+.cuidados{
+    
+    color: #7d4e24;
+}
+
+/*nosotros*/
+.Nosotros{
+    color: #7d4e24;
+}
