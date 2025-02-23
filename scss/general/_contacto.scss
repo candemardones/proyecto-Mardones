@@ -1,0 +1,90 @@
+@import "../utilidades/variables";
+
+
+/*Contacto*/
+
+.titulo-contacto{
+    padding: 25px 0;
+}
+
+
+.fila-contacto{
+    width: 100%;
+    div{
+        label{
+            width: 500px;
+            text-align: left;
+            color: $color-principal;
+        }
+    }
+}
+
+
+.form-contacto{
+    padding: 0;
+
+    input{
+       border-color: $color-principal;
+    }
+}
+
+.redes-contacto{
+    padding: 0;
+}
+
+.asunto{
+    width: 610px;
+}
+
+.nombres{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 16px 0 8px 0;
+    input{
+        width: 300px;
+    }
+}
+
+.form{
+    width: 500px;
+    border: 1px solid $color-principal;
+}
+
+.formulargo{
+    width: 500px;
+    border:1px solid $color-principal;
+    padding: 40px;
+}
+
+.enviarbot{
+    background-color: $color-principal;
+    color: white;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.botonenviar{
+    padding: 20px;
+}
+
+.mapa{
+    width: 610px;
+}
+
+
+.contacto-iconos div{
+    
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding: 5px 0;
+        align-items: center;
+}
+
+
+.contacto-iconos p{
+    margin: 0;
+}

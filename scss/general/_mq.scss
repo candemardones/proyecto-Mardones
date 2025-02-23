@@ -1,0 +1,215 @@
+@import "../utilidades/mixin";
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header-logo{
+        order: 1;
+        img{
+            width: 20%;
+            padding: 20px 0;
+        }
+    }
+    .header-secciones{
+        order: 3;
+    }
+    .header-svg{
+        order: 2;
+    }
+   
+    .texto-velasmolde{
+        padding: 0;
+        max-width: 764px;
+        text-align: justify;
+    }
+    
+    .texto-velasenvase{
+        padding: 0;
+        max-width: 764px;
+        text-align: justify;
+    }
+    
+    .texto-sahumerios{
+        padding: 0;
+        max-width: 764px;
+        text-align: justify;
+    }
+
+    .velasmolde-container{
+        max-width: 900px;
+    }
+
+    .fila-contacto{
+        padding: 0 50px;
+    }
+
+    .redes-contacto iframe{
+        padding-left: 20px;
+    }
+    
+    .carousel-inner img{
+        width: 1200px;
+    }
+}
+
+@media (min-width:768px) and (max-width: 1200px) {
+    .footer-nosotros{
+        order: 1;
+    }
+
+    .footer-cuidados{
+        order: 3;
+    }
+
+    .footer-contactanos{
+        order: 2;
+    }
+
+    .derechos{
+        order: 4;
+    }
+
+    .fila-contacto{
+        padding: 0 50px;
+        div{
+            label{
+                width: 300px;
+                text-align: left;
+            }
+        }
+    }
+
+    .redes-contacto iframe{
+        padding-left: 20px;
+    }
+
+    .form{
+        width: 300px;
+        
+    }
+    
+    .formulargo{
+        width: 300px;
+    }
+    
+}
+@media (min-width:768px) and (max-width: 992px) {
+    .carousel-inner img{
+        width: 992px;
+    }
+}
+
+@media (max-width: 992px){
+    .header-secciones{
+        display: none;
+    }
+    .header-svg{
+        display: none;
+    }
+    .svg-menu{
+        @include flex;
+        
+    }
+    .header-logo img{
+        padding: 20px 0;
+    }
+    .texto-velasmolde{
+        padding: 0 50px;
+        max-width: 768px;
+        text-align: justify;
+    }
+    
+    .texto-velasenvase{
+        padding: 0 50px;
+        max-width: 768px;
+        text-align: justify;
+    }
+    
+    .texto-sahumerios{
+        padding: 0 50px;
+        max-width: 768px;
+        text-align: justify;
+    }
+
+    .velasmolde-container{
+        max-width: 600px;
+    }
+}
+
+@media (max-width:768px){
+    
+    .footer-container p{
+        max-width: 100%;
+    }
+    .footer-container h5{
+        padding-top: 8px;
+    }
+    .svg-menu{
+        @include flex;
+    }
+    .texto-velasmolde{
+        padding: 0 50px;
+        max-width: 576px;
+        text-align: justify;
+    }
+    
+    .texto-velasenvase{
+        padding: 0 50px;
+        max-width: 576px;
+        text-align: justify;
+    }
+    
+    .texto-sahumerios{
+        padding: 0 50px;
+        max-width: 576px;
+        text-align: justify;
+    }
+
+    .mapa{
+        width: 500px;
+        padding-bottom: 10px;
+    }
+    .carousel-inner img{
+        width: 768px;
+    }
+
+    .form-contacto{
+        padding: 0 50px;
+    }
+
+    .form {
+        width: 400px;
+    }
+    .formulargo {
+        width: 400px;
+    }
+    .fila-contacto div label {
+        width: 400px;
+        text-align: left;
+    }
+    .mapa{
+        width: 400px;
+    }
+    
+
+}
+
+@media (max-width: 576px){
+    .Nosotros{
+        padding: 0 50px;
+    }
+
+    .img-nosotros img{
+        padding: 0 50px;
+    }
+    .velasmolde-container img{
+        padding: 0 50px;
+    }
+}
+
+
+@media (min-width:992px){
+    .svg-menu{
+         display: none;
+    }
+
+}

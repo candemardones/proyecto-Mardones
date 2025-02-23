@@ -1,0 +1,50 @@
+
+@import "../utilidades/variables";
+
+
+/*cuidados*/
+
+.texto-velasmolde{
+    padding: 0 50px;
+    max-width: 1200px;
+    text-align: justify;
+}
+
+.texto-velasenvase{
+    padding: 0 50px;
+    max-width: 1200px;
+    text-align: justify;
+}
+
+.texto-sahumerios{
+    padding: 0 50px;
+    max-width: 1200px;
+    text-align: justify;
+}
+
+.cuidados-textos{
+    display: flex;
+    justify-content: center;
+
+    p{
+        color: $color-principal;
+    }
+}
+
+
+.cuidados-titulo{
+    text-align: center;
+    color: $color-principal;
+    margin-top: 25px;
+    padding: 10px 0;
+}
+.container{
+    
+    color: $color-principal;
+    text-align: left;
+   
+}
+
+
+
+

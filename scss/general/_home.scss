@@ -1,0 +1,146 @@
+@import "../utilidades/mixin";
+
+@import "../utilidades/variables";
+
+
+/*header*/
+header{
+    @include flex;
+    gap: 110px;
+    list-style: none;
+    background-color: white;
+    nav{
+        ul{
+            @include flex;
+            margin: 0;
+            padding: 0;
+            gap: 110px;
+            list-style: none;
+        }
+        li{
+            a{
+                color: $color-principal;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.header-logo{
+    @include flex;
+    padding: 0;
+    img{
+        width: 30%;
+    }
+}
+
+.header-secciones{
+    @include flex;
+    padding: 30px 0;
+}
+
+.barraprinc{
+    border-bottom: 1px solid #7d4e24;
+}
+
+.header-svg{
+    @include flex;
+    gap: 15px;
+}
+
+/*main del index*/
+
+.productos-container{
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    div{
+        padding: 20px 0;
+    }
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/*pie de pagina*/
+
+.footer-inicio{
+    width: 100%;
+    background-color: $color-secundario;
+    color: $color-principal;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    padding-top: 20px;
+    gap: 110px;
+    text-decoration: none;
+    h5{
+        text-align: left;
+    }
+
+}
+
+.footer-container{
+    width: 100%;
+}
+
+.footer-nosotros{
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+
+    p{
+        margin: 0;
+        max-width: 400px;
+        text-align: start;
+    }
+}
+
+.footer-cuidados{
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    p{
+        margin: 0;
+        max-width: 400px;
+        text-align: start;
+    }
+}
+
+.redes div{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 5px 0;
+    align-items: center;
+    p{
+        display: flex;
+        margin: 0;
+        text-align: start;
+    }
+}
+
+.footer-contactanos{
+    text-decoration: none;
+    padding: 0 50px;
+}
+
+.derechos{
+    @include flex;
+    background-color: $color-secundario;
+    color: $color-principal;
+    border-top: 1px solid;
+    margin: 0;
+    margin-top: 20px;
+    p{
+        margin: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+
